@@ -364,15 +364,58 @@ img.ofertas {
 }
 @media screen and (max-width: 768px) {
     
-    header {
-       
+    .logo {
+        margin-top: 40px;
+        margin-bottom: 0p;    
+    }
+    h1 {
+        margin: 0px 0px;
         
+    }
+    .nave {
+        flex-wrap: wrap;
+    }
+    header nav a {
+        padding: 8px; 
+        display: flex;
+        flex-direction: column;
+        width: auto; 
+        border: 1px solid #54a8e0;
+        text-align: start;
+        border-radius: 5px;
+        
+        
+        
+            
+    }
+    .contenedor {
+        max-width: 100vh;
+        display: grid;
+        grid-template-areas:"#imglogo"
+                            "nave"
+                             ;
+        justify-items: start;
+        
+        
+    }
+    header {
+        
+        position: static;
+        width: fit-content;
+        height: 245px;
+        width: auto;
+        background-color: white;
         
     }
 
     nav {
         padding: 0;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
+        
+        position: static;
+        width: 100%;
+
+        
     }
     
     body {
@@ -386,11 +429,18 @@ img.ofertas {
                                  "c3 c3 c3"
                                  "c4 c4 c4";
             flex-wrap: wrap;
+            
         } 
-    .c3 {
-    
+    .c1 {
+        width: 15rem;
+        justify-self: center;
+        
+    }
+    .c2 {
+        margin: 2px 26px ;
                
         } 
+    
         
 input {
     
@@ -398,6 +448,105 @@ input {
     border-radius: 10px;
     margin-bottom: 1rem;
     width: 18rem;
+    }
+    .fieldset {
+        margin: 0 0;
+        margin-bottom: 2rem;
+        -webkit-box-shadow: none; 
+        box-shadow: none;
+        width: auto;
+    }
+    textarea {
+        width: 300px;
+    }
+    .flexi {
+        width: 400px;
+    }
+    .invisible {
+        padding: 0 0;
+
+        
+    }
+    .servicios {
+        width: 480px;
+        
+        
+    }
+    .sombra {
+        margin-top: 0;
+    }
+    
+.c2 p {
+    width: fit-content;
+    }
+.instructivo {
+    padding: 0px 0px;
+    margin-top: 2rem;
+    
+    justify-items: stretch;
+    gap: inherit;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: fit-content;
+        background-color: white;
+        position: relative;
+        width: auto;                     
+    }
+    div.redes {
+        width: 100%;
+        
+    }
+    iframe {
+        width:100%;
+           
+    }
+    .bq {
+        text-align: center;    }
+
+        img.aliados {
+            width: -webkit-fill-available;
+            height: -webkit-fill-available;
+        }
+    div.quienes {
+        
+        flex-direction: column-reverse;
+    }
+    img.quienes {
+        width: auto;
+        height: auto;
+    }
+    div.ofertas {
+        
+        flex-direction: column;
+        margin: 0;
+    }
+    img.ofertas {
+        width: auto;
+        height: auto;
+        position: relative;
+        opacity: 30%;
+        margin-top: -3rem;
+        margin-bottom: -9rem;
+    }
+    .ofertas p {
+        position: absolute;
+        width: auto;
+        padding: 0rem 1rem ;
+        margin-top: 74px
+        
+    }
+    p.textofertas {
+        position: absolute;
+        width: auto;
+        padding: 0rem 1rem ;
+        
+    }
+    h2.ofer {
+        margin: 0 0;
+        
     }
 }
 
@@ -509,7 +658,7 @@ input {
 
         
     }
-    .serviios {
+    .servicios {
         width: 390px;
         
         
