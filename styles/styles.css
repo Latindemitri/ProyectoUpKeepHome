@@ -22,9 +22,12 @@ header {
     height: 65px;
 } 
 
+#imglogo {
+    margin-right: 1rem;
+}
 nav {
     float: right;
-    padding-right: 20rem;
+    padding-right: 2rem;
 
     
 }
@@ -38,13 +41,25 @@ nav {
 header nav a {
     display: inline-block;
     flex-wrap: wrap;
-    padding: 24px;
+    padding: 20px;
     color: black;
     text-decoration: none;
     font-weight: bold;
     justify-content: space-around;
     font-family: crossorigin, sans-serif ;
     
+}
+
+.navbar {
+    height: 4rem;
+    width: 20rem;
+    padding: 0 0;
+
+
+}
+.btn {
+    width: 8rem;
+    height: 2.5rem;
 }
 
   
@@ -76,8 +91,8 @@ body {
     justify-content:center;
     text-align: justify;
     align-items: center;
-    line-height: 29px;
-    background-color: rgba(21, 141, 240, 0.199);
+    line-height: 38px;
+    
     border-radius: 0px;
     background-image: url(../img/img01.jpg);
     background-size: 100rem 50rem;
@@ -100,6 +115,7 @@ body {
     justify-content: center;
     font-style: italic;
     color: #d8f0fa;
+
     
 }
 .invisible { padding: 20rem;}
@@ -130,8 +146,8 @@ img {
     float:inline-start;
 }
 .imgserv { 
-    width: 40px;
-    height: 40px;
+    width: 75px;
+    height: 75px;
 }
 
 .bo {
@@ -152,7 +168,7 @@ img {
     background-color: rgba(21, 141, 240, 0.774);
     border-radius: 5rem;
     padding: 1rem; 
-    margin-top: 1rem;   
+    margin-top: 2rem;   
 }
 .imgserv:hover {
     background-color: rgba(7, 44, 252, 0.74);
@@ -178,13 +194,17 @@ img {
     
 }
 .logo {
-    margin-top: 40px;
+    margin-top: 11px;
     margin-bottom: 20px;
 }
 h1 {
     color: cornsilk;
-
     
+    
+}
+h2 {
+    margin-top: 1rem;
+    font-weight: bold;
 }
 .upkeep {
     color: #0d6efd;   
@@ -207,8 +227,10 @@ h1 {
 }
 .servicios {
     background-color: rgba(21, 141, 240, 0.178);
-    width: 300px; 
-    border-radius: 8px; 
+    width: 340px; 
+    border-radius: 8px;
+    height: 18.5rem;
+     
 }
 
 input {
@@ -234,18 +256,18 @@ fieldset.fieldset {
 
 }
 textarea {
-    height: 15em;
-    width: 350px;        
+    height: auto;
+    width: auto;        
 }
 .fieldset {
-    width: auto;
-    height: 32rem;
+    width: 38%;
+    height: 36rem;
     -webkit-box-shadow: 14px 13px 6px 0px rgba(0,0,0,0.76);
     -moz-box-shadow: 14px 13px 6px 0px rgba(0,0,0,0.76);
     box-shadow: 14px 13px 6px 0px rgba(0,0,0,0.76);
     margin-bottom: 3rem;
     background-color: #92caeb96;
-    margin: 2rem 28rem;
+    margin: 0rem 22rem;
 }
 
 a.mail { 
@@ -253,20 +275,19 @@ a.mail {
     text-decoration: none;
 }
 a.mail:hover { color: rgb(16, 0, 245);}
+
 footer {
-    
-    justify-content: space-around;
     width: 100%;
-    align-items: ;
-    color: rgb(12, 12, 12);
-    align-items: center;
-    font-weight: bold;
-    bottom: 0;
-    position: static;
-    height: 100px;
-    
+    background-color: #6c757d40;
+    bottom: -20;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.1rem;
 
 }
+
+
 .redes {
     background-color: rgba(21, 141, 240, 0.527);
     width: 100%;
@@ -294,6 +315,12 @@ footer {
     font-weight: bold;
     
 }
+
+
+
+
+
+
 /* PAGINAS SECUNDARIAS*/ 
 img.aliados { 
     width: 60rem;
@@ -427,7 +454,7 @@ img.ofertas {
     }
     
     body {
-         font-size: 12px;
+         font-size: 1rem;
      }
     
     div.instructivo {
@@ -459,16 +486,18 @@ input {
     }
     .fieldset {
         margin: 0 0;
-        margin-bottom: 2rem;
+        
         -webkit-box-shadow: none; 
         box-shadow: none;
         width: auto;
+        height: auto;
     }
     textarea {
         width: 300px;
     }
     .flexi {
-        width: 400px;
+        
+   
     }
     .invisible {
         padding: 0 0;
@@ -495,13 +524,7 @@ input {
     gap: inherit;
     }
     footer {
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        width: fit-content;
-        background-color: white;
-        position: relative;
-        width: auto;                     
+                    
     }
     div.redes {
         width: 100%;
@@ -618,7 +641,7 @@ input {
     }
     
     body {
-         font-size: 12px;
+         font-size: 1rem;
      }
     
     div.instructivo {
@@ -653,13 +676,15 @@ input {
         margin-bottom: 2rem;
         -webkit-box-shadow: none; 
         box-shadow: none;
-        width: auto;
+        
     }
     textarea {
-        width: 300px;
+        width: -webkit-fill-available;
+    }
+    
     }
     .flexi {
-        width: 400px;
+        width: auto;
     }
     .invisible {
         padding: 0 0;
@@ -686,12 +711,8 @@ input {
     gap: inherit;
     }
     footer {
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        width: fit-content;
-        background-color: white;
-        position: relative;                     
+
+                             
     }
     div.redes {
         width: 100%;
@@ -745,9 +766,56 @@ input {
     h2.ofer {
         margin: 0 0;
         
+        
     }
 
 
 }
+@media screen and (max-width: 770px) {
+    .contenedor { 
+        height: 65px;
+    } 
+    #imglogo {
+        margin-right: 1rem; } 
+    .navbar {
+        display: none;
+    }
+    .flexi {
+        display: inherit;
+    }
+    .nto {
+        background-repeat: no-repeat;
+        background-color: none;
+        line-height: 38px;
+        background-size: 149% 60%;
 
+    }
+}
 
+@media screen and (max-width: 115px) {
+    .contenedor { 
+        height: 65px;
+    } 
+    #imglogo {
+        margin-right: 1rem; } 
+
+    }
+
+    .fieldset {
+        
+    }
+    .flexi {
+        display: block;
+    }
+    .nto {
+        background-repeat: no-repeat;
+        background-color: none;
+        line-height: 38px;
+        background-size: 149% 100%;
+        
+    }
+    .invisible {
+        padding: 0rem;
+    }
+
+}
