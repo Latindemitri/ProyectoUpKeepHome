@@ -15,8 +15,26 @@ header {
     top: 0;
     position: sticky;
     justify-content: center;
+    align-items: center;
 }
 
+/*BOOTSTRAP NAVBAR */
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 4.7rem;
+}
+.nav-link {
+    width: 10rem;
+    height: 4.8rem;
+    align-items: center;
+    padding-top: 2rem;
+    
+}
+
+
+
+/*-------------------*/
 
 .contenedor { 
     height: 65px;
@@ -26,8 +44,7 @@ header {
     margin-right: 1rem;
 }
 nav {
-    float: right;
-    padding-right: 2rem;
+
 
     
 }
@@ -41,22 +58,20 @@ nav {
 header nav a {
     display: inline-block;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 26.6px;
     color: black;
     text-decoration: none;
     font-weight: bold;
-    justify-content: space-around;
-    font-family: crossorigin, sans-serif ;
+    
+    
+   
     
 }
 
-.navbar {
-    height: 4rem;
-    width: 20rem;
-    padding: 0 0;
 
 
-}
+
+
 .btn {
     width: 8rem;
     height: 2.5rem;
@@ -399,6 +414,17 @@ img.ofertas {
 }
 @media screen and (max-width: 768px) {
     
+    .nav-link {
+        width: inherit;
+        height: 3rem;
+        align-items: center;
+        padding-top: 0.9rem;
+        background: #f8f9faf7;
+        border: solid 0.5px #212529;
+        text-align: inherit;
+    }
+
+
     .logo {
         margin-top: 40px;
         margin-bottom: 0p;    
@@ -415,7 +441,7 @@ img.ofertas {
         display: flex;
         flex-direction: column;
         width: auto; 
-        border: 1px solid #54a8e0;
+        
         text-align: start;
         border-radius: 5px;
         
@@ -435,9 +461,9 @@ img.ofertas {
     }
     header {
         
-        position: static;
+        
         width: fit-content;
-        height: 245px;
+        height: 75px;
         width: auto;
         background-color: white;
         
@@ -623,9 +649,7 @@ input {
     header {
         
         position: static;
-        width: fit-content;
-        height: 245px;
-        width: 100vh;
+        width: auto;
         background-color: white;
         
     }
@@ -664,7 +688,7 @@ input {
         } 
     
         
-input {
+    input {
     
     padding: 10px;
     border-radius: 10px;
@@ -682,7 +706,7 @@ input {
         width: -webkit-fill-available;
     }
     
-    }
+    
     .flexi {
         width: auto;
     }
@@ -700,10 +724,10 @@ input {
         margin-top: 0;
     }
     
-.c2 p {
+    .c2 p {
     width: fit-content;
     }
-.instructivo {
+    .instructivo {
     padding: 0px 0px;
     margin-top: 2rem;
     
@@ -771,28 +795,28 @@ input {
 
 
 }
-@media screen and (max-width: 770px) {
-    .contenedor { 
-        height: 65px;
-    } 
-    #imglogo {
-        margin-right: 1rem; } 
-    .navbar {
-        display: none;
-    }
-    .flexi {
-        display: inherit;
-    }
-    .nto {
-        background-repeat: no-repeat;
-        background-color: none;
-        line-height: 38px;
-        background-size: 149% 60%;
 
-    }
-}
 
-@media screen and (max-width: 115px) {
+@media screen and (max-width: 991px) {
+    .nav-link {
+        width: inherit;
+        height: 3rem;
+        align-items: center;
+        padding-top: 0.9rem;
+        background: #f8f9faf7;
+        border: solid 0.5px #212529;
+        text-align: inherit;  
+    }
+    header nav a {
+        padding: 8px;
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        text-align: start;
+        border-radius: 5px;
+    }
+    
+    
     .contenedor { 
         height: 65px;
     } 
@@ -817,5 +841,8 @@ input {
     .invisible {
         padding: 0rem;
     }
+    
+
+        
 
 }
