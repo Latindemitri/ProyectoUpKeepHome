@@ -1,24 +1,19 @@
+body {
+  font-family: crossorigin, sans-serif;
+  font-size: 14px;
+  top: 0px;
+  margin: 0px;
+  text-align: center;
+  text-decoration: none;
+  bottom: 0px;
+}
+
+d
 * {
   margin: 0px;
   padding: 0px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-}
-
-header {
-  background-image: radial-gradient(circle at 19.07% 47.29%, #ffffff 0, #ffffff 12.5%, #faffff 25%, #d8f0fa 37.5%, #b5def2 50%, #92cbeb 62.5%, #72b9e5 75%, #54a8e0 87.5%, #3798dc 100%);
-  width: 100%;
-  max-width: 100%;
-  z-index: 1000;
-  top: 0;
-  position: -webkit-sticky;
-  position: sticky;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 /*BOOTSTRAP NAVBAR */
@@ -304,7 +299,7 @@ a.mail:hover {
 
 footer {
   width: 100%;
-  background-color: #6c757d40;
+  background-color: #d6ebfc;
   bottom: -20;
   position: relative;
   display: -webkit-box;
@@ -316,8 +311,6 @@ footer {
           flex-direction: column;
   margin-top: 0.1rem;
 }
-
-
 
 .redes {
   background-color: rgba(21, 141, 240, 0.527);

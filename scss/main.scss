@@ -1,3 +1,4 @@
+@use 'body';
 
 * {
 	margin: 0px;
@@ -5,15 +6,8 @@
 	box-sizing: border-box;
 }
 
-header {
-    background-image: radial-gradient(circle at 19.07% 47.29%, #ffffff 0, #ffffff 12.5%, #faffff 25%, #d8f0fa 37.5%, #b5def2 50%, #92cbeb 62.5%, #72b9e5 75%, #54a8e0 87.5%, #3798dc 100%);
-	width:100%;
-    max-width: 100%;
-    z-index: 1000;
-    top: 0;
-    position: sticky;
-    justify-content: center;
-    align-items: center;
+body {
+    @include body
 }
 
 /*BOOTSTRAP NAVBAR */
@@ -285,7 +279,7 @@ a.mail:hover { color: rgb(16, 0, 245);}
 
 footer {
     width: 100%;
-    background-color: #6c757d40;
+    background-color: #d6ebfc;
     bottom: -20;
     position: relative;
     display: flex;
