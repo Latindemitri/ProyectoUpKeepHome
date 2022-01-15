@@ -413,9 +413,7 @@ img.ofertas {
           align-items: center;
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "c1 c1 c1"
- "c3 c2 c2"
- "c4 c4 c4";
+      grid-template-areas: "c1 c1 c1" "c3 c2 c2" "c4 c4 c4";
   -ms-grid-columns: 1fr auto auto;
       grid-template-columns: 1fr auto auto;
   padding: 5rem;
@@ -497,8 +495,7 @@ img.ofertas {
     max-width: 100vh;
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "#imglogo"
- "nave";
+        grid-template-areas: "#imglogo" "nave";
     justify-items: start;
   }
   header {
@@ -522,10 +519,7 @@ img.ofertas {
   div.instructivo {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "c1 c1 c1"
- "c2 c2 c2"
- "c3 c3 c3"
- "c4 c4 c4";
+        grid-template-areas: "c1 c1 c1" "c2 c2 c2" "c3 c3 c3" "c4 c4 c4";
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
@@ -657,8 +651,7 @@ img.ofertas {
     max-width: 100vh;
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "#imglogo"
- "nave";
+        grid-template-areas: "#imglogo" "nave";
     justify-items: start;
   }
   header {
@@ -679,10 +672,7 @@ img.ofertas {
   div.instructivo {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "c1 c1 c1"
- "c2 c2 c2"
- "c3 c3 c3"
- "c4 c4 c4";
+        grid-template-areas: "c1 c1 c1" "c2 c2 c2" "c3 c3 c3" "c4 c4 c4";
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }

@@ -63,7 +63,9 @@ body {
   margin: 0px;
   text-align: center;
   text-decoration: none;
-  bottom: 0px; }
+  bottom: 0px;
+  height: 60rem;
+}
 
 .nto {
   display: flex;
